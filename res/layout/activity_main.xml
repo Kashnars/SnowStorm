@@ -19,7 +19,7 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
-        android:text="Comment ça va?"
+        android:text="Meurs, pourriture communiste !"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
