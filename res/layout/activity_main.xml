@@ -4,30 +4,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView2"
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:src="@drawable/rickroll" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:text="@string/test"
+        android:layout_marginTop="24dp"
+        android:text="@string/home_take_picture"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/rickroll" />
 
 </RelativeLayout>
