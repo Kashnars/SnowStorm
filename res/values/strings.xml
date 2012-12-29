@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">SnowStorm</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">test</string>
     <string name="menu_settings">Settings</string>
 
 </resources>
