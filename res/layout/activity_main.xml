@@ -19,7 +19,7 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
-        android:text="Meurs, pourriture communiste !"
+        android:text="@string/test"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView

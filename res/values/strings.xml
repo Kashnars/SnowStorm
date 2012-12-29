@@ -4,5 +4,6 @@
     <string name="app_name">SnowStorm</string>
     <string name="hello_world">niggas !</string>
     <string name="menu_settings">Settings</string>
+    <string name="test">ma nouvelle ligne de texte</string>
 
 </resources>
