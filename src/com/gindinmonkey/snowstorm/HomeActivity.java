@@ -27,7 +27,7 @@ public class HomeActivity extends Activity {
     
     public void startTakePicture(View view) {
 
-    	DialogFragment dialog = new ChooseTakePictureDialogFragment();
+    	DialogFragment dialog = new ChoosePictureSourceDialogFragment();
         dialog.show(getFragmentManager(), "ChooseTakePictureDialogFragment");
     	
     }

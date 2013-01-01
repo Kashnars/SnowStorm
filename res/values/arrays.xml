@@ -2,7 +2,7 @@
 
 <resources>
     
-	<array name="pick_picture_array">  
+	<array name="picture_sources_array">  
 	    <item>Camera</item>  
 	    <item>Gallery</item>
 	</array>
