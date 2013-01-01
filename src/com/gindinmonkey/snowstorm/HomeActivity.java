@@ -2,27 +2,16 @@ package com.gindinmonkey.snowstorm;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Intent;
 import android.view.Menu;
 
-public class MainActivity extends Activity {
+public class HomeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Intent homeActivityIntent = new Intent(this, HomeActivity.class);
-        startActivity(homeActivityIntent);
+        setContentView(R.layout.activity_home);
     }
 
-
-    @Override
-    protected void onStop() {
-    	super.onStop();
-        this.finish();
-    }
-    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
